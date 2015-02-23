@@ -1,0 +1,2 @@
+﻿<%@ServiceHost language="VB" Debug="true" Service="Sevansoft.CacheTest.ServiceTier.ProductService" %>
+<%@Assembly Name="Sevansoft.CacheTest.ServiceTier" %>
