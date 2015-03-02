@@ -8,8 +8,8 @@ Imports System.Collections.Generic
 Imports System.Runtime.Serialization
 
 Namespace Sevansoft.CacheTest.Entities
-    <Serializable()> _
-    <CollectionDataContract()> _
+    <Serializable>
+    <CollectionDataContract>
     Public Class ProductList
         Inherits List(Of Product)
     End Class

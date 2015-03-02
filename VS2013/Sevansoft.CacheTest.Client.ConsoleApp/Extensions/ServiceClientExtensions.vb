@@ -10,9 +10,9 @@ Imports System.ServiceModel
 Imports Microsoft.VisualBasic
 
 Namespace System.ServiceModel
-    <HideModuleName()> _
+    <HideModuleName> _
     Public Module ServiceClientExtensions
-        <Extension()> _
+        <Extension> _
         Public Sub CloseProxy(ByVal instance As ICommunicationObject)
             If instance IsNot Nothing Then
                 Try

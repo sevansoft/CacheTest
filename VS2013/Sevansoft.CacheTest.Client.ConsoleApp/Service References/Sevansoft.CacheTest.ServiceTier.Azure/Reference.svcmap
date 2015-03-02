@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="00402ca4-7c27-41f2-b8ce-fc3d75224cd8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://sevansoft-wcfcache.azurewebsites.net/ProductService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductService.xsd" MetadataType="Schema" ID="45fd7034-f048-42c6-a646-bc02ba0aa030" SourceId="1" SourceUrl="http://sevansoft-wcfcache.azurewebsites.net/ProductService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ProductService.disco" MetadataType="Disco" ID="0ad89957-36f3-4c17-8972-ff2628c04edb" SourceId="1" SourceUrl="http://sevansoft-wcfcache.azurewebsites.net/ProductService.svc?disco" />
+    <MetadataFile FileName="ProductService.wsdl" MetadataType="Wsdl" ID="1e54c92b-03b5-4884-badb-9a4c8eb4c978" SourceId="1" SourceUrl="http://sevansoft-wcfcache.azurewebsites.net/ProductService.svc?wsdl" />
+    <MetadataFile FileName="ProductService1.xsd" MetadataType="Schema" ID="6470ab2a-7274-4123-878f-6b1da29d402b" SourceId="1" SourceUrl="http://sevansoft-wcfcache.azurewebsites.net/ProductService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProductService2.xsd" MetadataType="Schema" ID="37d61231-af20-4f6d-aad8-c4d9851dc3c5" SourceId="1" SourceUrl="http://sevansoft-wcfcache.azurewebsites.net/ProductService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

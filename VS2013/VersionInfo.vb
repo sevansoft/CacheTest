@@ -16,6 +16,6 @@ Imports System.Reflection
 <Assembly: AssemblyVersionAttribute("0.0.0.0"), _
  Assembly: AssemblyFileVersionAttribute("0.0.0.0"), _
  Assembly: AssemblyCompanyAttribute("CDS Global"), _
- Assembly: AssemblyCopyrightAttribute("Copyright © CDS Global 2009"), _
+ Assembly: AssemblyCopyrightAttribute("Copyright © CDS Global 2015"), _
  Assembly: AssemblyConfigurationAttribute("DEBUG"), _
  Assembly: AssemblyInformationalVersionAttribute("0.0")> 

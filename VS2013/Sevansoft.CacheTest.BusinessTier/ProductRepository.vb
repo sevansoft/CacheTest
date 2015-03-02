@@ -29,7 +29,7 @@ Namespace Sevansoft.CacheTest.BusinessTier
             Return result
         End Function
 
-        Public Sub ClearCache() Implements IProduct.ClearCache
+        Public Sub ClearCache() Implements IServiceBase.ClearCache
             Throw New NotImplementedException
         End Sub
     End Class

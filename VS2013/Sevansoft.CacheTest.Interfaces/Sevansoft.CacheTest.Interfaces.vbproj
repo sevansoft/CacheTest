@@ -61,7 +61,9 @@
     <Compile Include="..\VersionInfo.vb">
       <Link>VersionInfo.vb</Link>
     </Compile>
+    <Compile Include="ICountryInformation.vb" />
     <Compile Include="IProduct.vb" />
+    <Compile Include="IServiceBase.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

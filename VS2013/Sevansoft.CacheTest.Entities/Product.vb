@@ -9,30 +9,14 @@ Imports System.Runtime.Serialization
 Imports System.ServiceModel
 
 Namespace Sevansoft.CacheTest.Entities
-    <DebuggerStepThrough()> _
-    <DataContract()> _
+    <DebuggerStepThrough>
+    <DataContract>
     Public Class Product
 
-        Private _code As String
-        <DataMember()> _
+        <DataMember>
         Public Property Code() As String
-            Get
-                Return _code
-            End Get
-            Set(ByVal value As String)
-                _code = value
-            End Set
-        End Property
 
-        Private _Name As String
-        <DataMember()> _
+        <DataMember>
         Public Property Name() As String
-            Get
-                Return _Name
-            End Get
-            Set(ByVal value As String)
-                _Name = value
-            End Set
-        End Property
     End Class
 End Namespace
