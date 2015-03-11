@@ -181,3 +181,4 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+/VS2013/Sevansoft.CacheTest.Client.ConsoleApp/proxy.config
