@@ -16,7 +16,8 @@ Namespace Sevansoft.CacheTest.BusinessTier
 
         Public Function GetCountryInfos() As CountryInfoList Implements ICountryInformation.GetCountryInfos
             Dim filePath As String = Path.Combine(DataPath, "CountryInfo.xml")
-
+            'artifical delay to behave like a slow process
+            Thread.Sleep(2000)
             Return CountryInfoList.LoadList(New FileInfo(filePath))
         End Function
 
