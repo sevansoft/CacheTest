@@ -23,6 +23,10 @@
     <UpgradeBackupLocation />
     <TargetFrameworkProfile />
     <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -63,6 +67,7 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CountryInformationService.svc" />
     <Content Include="ProductService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>

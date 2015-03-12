@@ -7,16 +7,21 @@ Imports System
 Imports System.Diagnostics
 Imports System.Runtime.Serialization
 Imports System.ServiceModel
+Imports System.Xml
 
 Namespace Sevansoft.CacheTest.Entities
-    <DebuggerStepThrough()> _
-    <DataContract()> _
-    Public Class Product
+    <DebuggerStepThrough>
+    <DataContract>
+    Public Class StateInfo
 
-        <DataMember()> _
+        Public Sub New(ByVal node As XmlNode)
+            Code = node.ReadAttribute(Of String)("value")
+            Name = node.ReadElement(Of String)()
+        End Sub
+        <DataMember>
         Public Property Code() As String
 
-        <DataMember()> _
+        <DataMember>
         Public Property Name() As String
     End Class
 End Namespace

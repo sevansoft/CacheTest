@@ -10,13 +10,8 @@ Imports Sevansoft.CacheTest.Entities
 
 Namespace Sevansoft.CacheTest.Interfaces
     <ServiceContract>
-    Public Interface IProduct
-        Inherits IServiceBase
-
+    Public Interface IServiceBase
         <OperationContract>
-        Function GetProduct(ByVal code As String) As Product
-
-        <OperationContract>
-        Function GetProducts() As ProductList
+        Sub ClearCache()
     End Interface
 End Namespace

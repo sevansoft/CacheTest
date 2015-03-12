@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Web Developer Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sevansoft.CacheTest.Interfaces", "Sevansoft.CacheTest.Interfaces\Sevansoft.CacheTest.Interfaces.vbproj", "{59083189-F2CF-4F36-B507-356C32F5D34E}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sevansoft.CacheTest.Entities", "Sevansoft.CacheTest.Entities\Sevansoft.CacheTest.Entities.vbproj", "{2B5E672D-212A-40F0-9DEC-6753F865A32A}"
@@ -15,6 +17,14 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sevansoft.CacheTest.Client.
 	ProjectSection(ProjectDependencies) = postProject
 		{44F1C9CD-74CC-4496-AE83-98F751981068} = {44F1C9CD-74CC-4496-AE83-98F751981068}
 	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sevansoft.CacheTest.BusinessTier.Tests", "Sevansoft.CacheTest.BusinessTier.Tests\Sevansoft.CacheTest.BusinessTier.Tests.vbproj", "{9D703EE9-59CA-449C-9123-4669CA59AEAB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sevansoft.CacheTest.Caching", "Sevansoft.CacheTest.Caching\Sevansoft.CacheTest.Caching.vbproj", "{32316074-DD5C-4875-848A-F86EA7DC28AF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sevansoft.CacheTest.Caching.Tests", "Sevansoft.CacheTest.Caching.Tests\Sevansoft.CacheTest.Caching.Tests.vbproj", "{C925FCEC-C35E-4F36-9531-6D3F30039EDA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sevansoft.CacheTest.Entities.Tests", "Sevansoft.CacheTest.Entities.Tests\Sevansoft.CacheTest.Entities.Tests.vbproj", "{BADA4744-28FB-441A-A561-84A518BFC27B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +56,22 @@ Global
 		{2E94113F-D9D3-42B9-90AA-98A53F8891DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E94113F-D9D3-42B9-90AA-98A53F8891DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E94113F-D9D3-42B9-90AA-98A53F8891DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D703EE9-59CA-449C-9123-4669CA59AEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D703EE9-59CA-449C-9123-4669CA59AEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D703EE9-59CA-449C-9123-4669CA59AEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D703EE9-59CA-449C-9123-4669CA59AEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32316074-DD5C-4875-848A-F86EA7DC28AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32316074-DD5C-4875-848A-F86EA7DC28AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32316074-DD5C-4875-848A-F86EA7DC28AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32316074-DD5C-4875-848A-F86EA7DC28AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C925FCEC-C35E-4F36-9531-6D3F30039EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C925FCEC-C35E-4F36-9531-6D3F30039EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C925FCEC-C35E-4F36-9531-6D3F30039EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C925FCEC-C35E-4F36-9531-6D3F30039EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADA4744-28FB-441A-A561-84A518BFC27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADA4744-28FB-441A-A561-84A518BFC27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADA4744-28FB-441A-A561-84A518BFC27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADA4744-28FB-441A-A561-84A518BFC27B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
