@@ -4,7 +4,6 @@ Option Strict On
 #End Region
 
 Imports System
-Imports System.Runtime.Caching
 Imports System.Threading
 
 Imports NUnit.Framework
