@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<options>
+<option value="GBR" altratezone="UK">United Kingdom</option>
+<option value="AFG" altratezone="ROW">Afghanistan</option>
+<option value="ALB" altratezone="EUR">Albania</option>
+<option value="DZA" altratezone="ROW">Algeria</option>
+<option value="AND" altratezone="EUR">Andorra</option>
+<option value="AGO" altratezone="ROW">Angola</option>
+<option value="AIA" altratezone="ROW">Anguilla</option>
+<option value="ATG" altratezone="ROW">Antigua And Barbuda</option>
+<option value="ARG" altratezone="ROW">Argentina</option>
+<option value="ARM" altratezone="ROW">Armenia</option>
+<option value="ABW" altratezone="ROW">Aruba</option>
+<option value="ASC" altratezone="ROW">Ascension Island</option>
+<option value="AUS" altratezone="ROW">Australia</option>
+<option value="AUT" altratezone="EUR">Austria</option>
+<option value="AZE" altratezone="EUR">Azerbaidjan</option>
+<option value="AZO" altratezone="EUR">Azores Islands</option>
+<option value="BHS" altratezone="ROW">Bahamas</option>
+<option value="BHR" altratezone="ROW">Bahrain</option>
+<option value="BGD" altratezone="ROW">Bangladesh</option>
+<option value="BRB" altratezone="ROW">Barbados</option>
+<option value="BLR" altratezone="EUR">Belarus</option>
+<option value="BEL" altratezone="EUR">Belgium</option>
+<option value="BLZ" altratezone="ROW">Belize</option>
+<option value="BEN" altratezone="ROW">Benin</option>
+<option value="BMU" altratezone="ROW">Bermuda</option>
+<option value="BTN" altratezone="ROW">Bhutan</option>
+<option value="BOL" altratezone="ROW">Bolivia</option>
+<option value="BOP" altratezone="ROW">Bophuthatswana</option>
+<option value="BIH" altratezone="EUR">Bosnia &amp; Herzegovina</option>
+<option value="BWA" altratezone="ROW">Botswana</option>
+<option value="BRA" altratezone="ROW">Brazil</option>
+<option value="IOT" altratezone="ROW">British Ind Ocean Te</option>
+<option value="BVI" altratezone="ROW">British Virgin Isl</option>
+<option value="BRN" altratezone="ROW">Brunei Darussalam</option>
+<option value="BGR" altratezone="EUR">Bulgaria</option>
+<option value="BFA" altratezone="ROW">Burkina Faso</option>
+<option value="BUR" altratezone="ROW">Burma</option>
+<option value="BDI" altratezone="ROW">Burundi</option>
+<option value="KHM" altratezone="ROW">Cambodia</option>
+<option value="CMR" altratezone="ROW">Cameroon</option>
+<option value="CAN" altratezone="ROW">Canada</option>
+<option value="CAP" altratezone="ROW">Cape Verde</option>
+<option value="CYM" altratezone="ROW">Cayman Islands</option>
+<option value="CAF" altratezone="ROW">Central African Repu</option>
+<option value="TCD" altratezone="ROW">Chad</option>
+<option value="CHL" altratezone="ROW">Chile</option>
+<option value="CHN" altratezone="ROW">China</option>
+<option value="COL" altratezone="ROW">Colombia</option>
+<option value="COM" altratezone="ROW">Comoros Islands</option>
+<option value="CIS" altratezone="ROW">Comw Indep Stes</option>
+<option value="COD" altratezone="ROW">Congo</option>
+<option value="COK" altratezone="ROW">Cook Islands</option>
+<option value="CRI" altratezone="ROW">Costa Rica</option>
+<option value="HRV" altratezone="EUR">Croatia</option>
+<option value="CUB" altratezone="ROW">Cuba</option>
+<option value="CYP" altratezone="EUR">Cyprus</option>
+<option value="CZE" altratezone="EUR">Czech Republic</option>
+<option value="DNK" altratezone="EUR">Denmark</option>
+<option value="DJI" altratezone="ROW">Djibouti</option>
+<option value="DMA" altratezone="ROW">Dominica</option>
+<option value="DOM" altratezone="ROW">Dominican Republic</option>
+<option value="EAA" altratezone="ROW">East Asia</option>
+<option value="ECU" altratezone="ROW">Ecuador</option>
+<option value="EGY" altratezone="ROW">Egypt</option>
+<option value="SLV" altratezone="ROW">El Salvador</option>
+<option value="CNQ" altratezone="ROW">Equatorial Guinea</option>
+<option value="ERI" altratezone="ROW">Eritrea</option>
+<option value="EST" altratezone="EUR">Estonia</option>
+<option value="ETH" altratezone="ROW">Ethiopia</option>
+<option value="FAE" altratezone="EUR">Faeroe Islands</option>
+<option value="FLK" altratezone="ROW">Falkland Islands</option>
+<option value="FIJ" altratezone="ROW">Fiji</option>
+<option value="FIN" altratezone="EUR">Finland</option>
+<option value="FWI" altratezone="ROW">Fr West Indies</option>
+<option value="FRA" altratezone="EUR">France</option>
+<option value="GUF" altratezone="ROW">French Guiana</option>
+<option value="PYF" altratezone="ROW">French Polynesia</option>
+<option value="GAB" altratezone="ROW">Gabon</option>
+<option value="GMB" altratezone="ROW">Gambia</option>
+<option value="GAZ" altratezone="ROW">Gaza</option>
+<option value="GEO" altratezone="ROW">Georgia</option>
+<option value="DEU" altratezone="EUR">Germany</option>
+<option value="GHA" altratezone="ROW">Ghana</option>
+<option value="GIB" altratezone="EUR">Gibraltar</option>
+<option value="GRC" altratezone="EUR">Greece</option>
+<option value="GRL" altratezone="EUR">Greenland</option>
+<option value="GRD" altratezone="ROW">Grenada</option>
+<option value="GLP" altratezone="ROW">Guadeloupe</option>
+<option value="GUM" altratezone="ROW">Guam</option>
+<option value="GTM" altratezone="ROW">Guatemala</option>
+<option value="GIN" altratezone="ROW">Guinea</option>
+<option value="GNB" altratezone="ROW">Guinea Bissau</option>
+<option value="GUY" altratezone="ROW">Guyana</option>
+<option value="HTI" altratezone="ROW">Haiti</option>
+<option value="HND" altratezone="ROW">Honduras</option>
+<option value="HKO" altratezone="ROW">Hong Kong</option>
+<option value="HUN" altratezone="EUR">Hungary</option>
+<option value="ISL" altratezone="EUR">Iceland</option>
+<option value="IND" altratezone="ROW">India</option>
+<option value="IDN" altratezone="ROW">Indonesia</option>
+<option value="IRN" altratezone="ROW">Iran</option>
+<option value="IRQ" altratezone="ROW">Iraq</option>
+<option value="IRL" altratezone="EUR">Ireland</option>
+<option value="ISR" altratezone="ROW">Israel</option>
+<option value="ITA" altratezone="EUR">Italy</option>
+<option value="CIV" altratezone="ROW">Ivory Coast Cote D'</option>
+<option value="JAM" altratezone="ROW">Jamaica</option>
+<option value="JPN" altratezone="ROW">Japan</option>
+<option value="JOR" altratezone="ROW">Jordan</option>
+<option value="KAZ" altratezone="ROW">Kazakhstan</option>
+<option value="KEN" altratezone="ROW">Kenya</option>
+<option value="KIR" altratezone="ROW">Kiribati</option>
+<option value="KSV" altratezone="EUR">Kosovo</option>
+<option value="KWT" altratezone="ROW">Kuwait</option>
+<option value="KGZ" altratezone="ROW">Kyrgyzstan</option>
+<option value="LAO" altratezone="ROW">Laos</option>
+<option value="LVA" altratezone="EUR">Latvia</option>
+<option value="LBN" altratezone="ROW">Lebanon</option>
+<option value="LEE" altratezone="ROW">Leeward Isl</option>
+<option value="LSO" altratezone="ROW">Lesotho</option>
+<option value="LBR" altratezone="ROW">Liberia</option>
+<option value="LBY" altratezone="ROW">Libya N Arab Jamahi</option>
+<option value="LIE" altratezone="EUR">Liechtenstein</option>
+<option value="LTU" altratezone="EUR">Lithuania</option>
+<option value="LUX" altratezone="EUR">Luxembourg</option>
+<option value="MAC" altratezone="ROW">Macao</option>
+<option value="MKD" altratezone="EUR">Macedonia</option>
+<option value="MDG" altratezone="ROW">Madagascar</option>
+<option value="NWI" altratezone="ROW">Malawi</option>
+<option value="MYS" altratezone="ROW">Malaysia</option>
+<option value="MDV" altratezone="ROW">Maldives Islands</option>
+<option value="MLI" altratezone="ROW">Mali</option>
+<option value="MLT" altratezone="EUR">Malta</option>
+<option value="MHL" altratezone="ROW">Marshall Islands</option>
+<option value="MTQ" altratezone="ROW">Martinique</option>
+<option value="MRT" altratezone="ROW">Mauritania</option>
+<option value="MUS" altratezone="ROW">Mauritius</option>
+<option value="MEX" altratezone="ROW">Mexico</option>
+<option value="FSM" altratezone="ROW">Micronesia</option>
+<option value="MDA" altratezone="EUR">Moldavia</option>
+<option value="MCO" altratezone="EUR">Monaco</option>
+<option value="MNG" altratezone="ROW">Mongolia</option>
+<option value="MGR" altratezone="EUR">Montenegro</option>
+<option value="MSR" altratezone="ROW">Montserrat</option>
+<option value="MOR" altratezone="ROW">Morocco</option>
+<option value="MOZ" altratezone="ROW">Mozambique</option>
+<option value="NMR" altratezone="ROW">Myanmar</option>
+<option value="NAM" altratezone="ROW">Namibia</option>
+<option value="NRU" altratezone="ROW">Nauru</option>
+<option value="NPL" altratezone="ROW">Nepal</option>
+<option value="ANT" altratezone="ROW">Netherland Antilles</option>
+<option value="NLD" altratezone="EUR">Netherlands</option>
+<option value="NCL" altratezone="ROW">New Caledonia</option>
+<option value="NHE" altratezone="ROW">New Hebrides</option>
+<option value="NZL" altratezone="ROW">New Zealand</option>
+<option value="NIC" altratezone="ROW">Nicaragua</option>
+<option value="NER" altratezone="ROW">Niger</option>
+<option value="NGA" altratezone="ROW">Nigeria</option>
+<option value="NIU" altratezone="ROW">Niue</option>
+<option value="NFK" altratezone="ROW">Norfolk Island</option>
+<option value="PRK" altratezone="ROW">North Korea</option>
+<option value="MNP" altratezone="ROW">Northen Mariana Isl</option>
+<option value="NOR" altratezone="EUR">Norway</option>
+<option value="OMN" altratezone="ROW">Oman</option>
+<option value="PAK" altratezone="ROW">Pakistan</option>
+<option value="PLW" altratezone="ROW">Palau</option>
+<option value="PSE" altratezone="ROW">Palestine</option>
+<option value="PAN" altratezone="ROW">Panama</option>
+<option value="PNG" altratezone="ROW">Papua New Guinea</option>
+<option value="PRY" altratezone="ROW">Paraguay</option>
+<option value="PER" altratezone="ROW">Peru</option>
+<option value="PHL" altratezone="ROW">Philippines</option>
+<option value="PCN" altratezone="ROW">Pitcairn Island</option>
+<option value="POL" altratezone="EUR">Poland</option>
+<option value="PRT" altratezone="EUR">Portugal</option>
+<option value="PRI" altratezone="ROW">Puerto Rico</option>
+<option value="QAT" altratezone="ROW">Qatar</option>
+<option value="REU" altratezone="ROW">Reunion</option>
+<option value="ROU" altratezone="EUR">Romania</option>
+<option value="RUS" altratezone="EUR">Russia</option>
+<option value="RWA" altratezone="ROW">Rwanda</option>
+<option value="SHN" altratezone="ROW">Saint Helena</option>
+<option value="KNA" altratezone="ROW">Saint Kitts And Nevi</option>
+<option value="LCA" altratezone="ROW">Saint Lucia</option>
+<option value="STP" altratezone="ROW">Saint Tome And Princ</option>
+<option value="SVI" altratezone="ROW">Saint Vincent And Gr</option>
+<option value="ASM" altratezone="ROW">Samoa</option>
+<option value="SAN" altratezone="EUR">San Marino</option>
+<option value="SAU" altratezone="ROW">Saudi Arabia</option>
+<option value="SEN" altratezone="ROW">Senegal</option>
+<option value="SCG" altratezone="EUR">Serbia</option>
+<option value="SYC" altratezone="ROW">Seychelles</option>
+<option value="SLE" altratezone="ROW">Sierra Leone</option>
+<option value="SGP" altratezone="ROW">Singapore</option>
+<option value="SVK" altratezone="EUR">Slovakia</option>
+<option value="SVN" altratezone="EUR">Slovenia</option>
+<option value="SLB" altratezone="ROW">Solomon Islands</option>
+<option value="SOM" altratezone="ROW">Somalia</option>
+<option value="ZAF" altratezone="ROW">South Africa</option>
+<option value="KOR" altratezone="ROW">South Korea</option>
+<option value="ESP" altratezone="EUR">Spain</option>
+<option value="LKA" altratezone="ROW">Sri Lanka</option>
+<option value="SDN" altratezone="ROW">Sudan</option>
+<option value="SUR" altratezone="ROW">Suriname</option>
+<option value="SWZ" altratezone="ROW">Swaziland</option>
+<option value="SWE" altratezone="EUR">Sweden</option>
+<option value="CHE" altratezone="EUR">Switzerland</option>
+<option value="SRY" altratezone="ROW">Syria</option>
+<option value="TWN" altratezone="ROW">Taiwan</option>
+<option value="TJK" altratezone="ROW">Tajikistan</option>
+<option value="TZA" altratezone="ROW">Tanzania</option>
+<option value="TSM" altratezone="ROW">Tasmania</option>
+<option value="THA" altratezone="ROW">Thailand</option>
+<option value="TLS" altratezone="ROW">Timor Leste</option>
+<option value="TGO" altratezone="ROW">Togo</option>
+<option value="TON" altratezone="ROW">Tonga</option>
+<option value="TTO" altratezone="ROW">Trinidad And Tobago</option>
+<option value="TUN" altratezone="ROW">Tunisia</option>
+<option value="TUR" altratezone="EUR">Turkey</option>
+<option value="TKM" altratezone="ROW">Turkmenistan</option>
+<option value="TUV" altratezone="ROW">Tuvalu</option>
+<option value="UGA" altratezone="ROW">Uganda</option>
+<option value="UKR" altratezone="EUR">Ukraine</option>
+<option value="ARE" altratezone="ROW">United Arab Emirates</option>
+<option value="USA" altratezone="USA">United States</option>
+<option value="URY" altratezone="ROW">Uruguay</option>
+<option value="VIR" altratezone="ROW">Us Virgin Islands</option>
+<option value="UZB" altratezone="ROW">Uzbekistan</option>
+<option value="VUT" altratezone="ROW">Vanuatu</option>
+<option value="VAT" altratezone="EUR">Vatican City State</option>
+<option value="VEN" altratezone="ROW">Venezuela</option>
+<option value="VNM" altratezone="ROW">Vietnam</option>
+<option value="ESH" altratezone="ROW">Western Sahara</option>
+<option value="YEM" altratezone="ROW">Yemen</option>
+<option value="ZMB" altratezone="ROW">Zambia</option>
+<option value="ZWE" altratezone="ROW">Zimbabwe</option>
+</options>

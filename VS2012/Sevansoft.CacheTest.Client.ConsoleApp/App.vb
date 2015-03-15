@@ -8,7 +8,7 @@ Imports System.Diagnostics
 Imports System.Reflection
 Imports System.ServiceModel
 
-Imports Sevansoft.CacheTest.ServiceTier
+Imports Sevansoft.CacheTest.Entities
 
 Namespace Sevansoft.CacheTest.Client.ConsoleApp
     Public NotInheritable Class App
@@ -21,7 +21,8 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
             DumpAssemblyInfo()
 
             Try
-                Test01()
+                'Test01()
+                Test02()
             Catch ex As Exception
                 DumpException(ex)
             End Try
@@ -66,7 +67,41 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
 
         End Sub
 
-        <DebuggerStepThrough()> _
+        Private Shared Sub Test02()
+            Dim service As CountryInformationClient = New CountryInformationClient()
+            For counter As Integer = 1 To 10
+                Console.WriteLine("Starting test cycle {0}", counter)
+                Dim stopWatch As Stopwatch = New Stopwatch()
+
+                stopWatch = stopWatch.StartNew()
+                service = New CountryInformationClient()
+                stopWatch.Stop()
+                Console.WriteLine("New CountryInformationClient() took {0} milliseconds", stopWatch.ElapsedMilliseconds)
+
+                If counter = 5 Then
+                    stopWatch = stopWatch.StartNew()
+                    service.ClearCache()
+                    stopWatch.Stop()
+                    Console.WriteLine("ClearCache {0} milliseconds", stopWatch.ElapsedMilliseconds)
+                End If
+
+                stopWatch = stopWatch.StartNew()
+                Dim countryInfoList As CountryInfoList = service.GetCountryInfos()
+                stopWatch.Stop()
+                Console.WriteLine("service.CountryInformationClient() took {0} milliseconds", stopWatch.ElapsedMilliseconds)
+
+                stopWatch = stopWatch.StartNew()
+                countryInfoList = service.GetCountryInfos()
+                stopWatch.Stop()
+                Console.WriteLine("service.CountryInformationClient() took {0} milliseconds", stopWatch.ElapsedMilliseconds)
+
+                service.CloseProxy()
+                Console.WriteLine("Finished test cycle {0}", counter)
+                Console.WriteLine()
+            Next counter
+        End Sub
+
+        <DebuggerStepThrough>
         Private Shared Sub DumpAssemblyInfo()
             Dim assembly As Assembly = assembly.GetExecutingAssembly()
             Dim version As Version = assembly.GetName().Version
@@ -84,7 +119,7 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
             Return
         End Sub
 
-        <DebuggerStepThrough()> _
+        <DebuggerStepThrough>
         Private Shared Sub DumpException(ByVal exception As Exception)
             Dim localException As Exception = exception
             Dim originalColor As ConsoleColor = Console.ForegroundColor
@@ -109,7 +144,7 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
         End Sub
 
         Private Shared ReadOnly Property GetCopyright(ByVal assembly As Assembly) As String
-            <DebuggerStepThrough()> _
+            <DebuggerStepThrough>
             Get
                 Return CType(assembly.GetCustomAttributes(GetType(AssemblyCopyrightAttribute), False)(0), AssemblyCopyrightAttribute).Copyright
             End Get

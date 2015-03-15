@@ -9,14 +9,14 @@ Imports System.ServiceModel
 Imports Sevansoft.CacheTest.Entities
 
 Namespace Sevansoft.CacheTest.Interfaces
-    <ServiceContract()> _
-    Public Interface IProduct
+    <ServiceContract>
+    Public Interface ICountryInformation
         Inherits IServiceBase
 
-        <OperationContract()>
-        Function GetProduct(ByVal code As String) As Product
+        <OperationContract>
+        Function GetCountryInfos() As CountryInfoList
 
-        <OperationContract()>
-        Function GetProducts() As ProductList
+        <OperationContract>
+        Function GetStateInfos(ByVal countryCode As String) As StateInfoList
     End Interface
 End Namespace

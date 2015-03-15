@@ -1,27 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{51ECB6F4-F613-4D76-BBE9-CD8C42FD1743}</ProjectGuid>
+    <ProjectGuid>{BF2ACD93-1869-4214-9815-0C7D0FB9A0BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>
     </RootNamespace>
-    <AssemblyName>Sevansoft.CacheTest.ServiceTier</AssemblyName>
+    <AssemblyName>Sevansoft.CacheTest.Entities.Tests</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <OptionExplicit>On</OptionExplicit>
-    <OptionCompare>Binary</OptionCompare>
-    <OptionStrict>Off</OptionStrict>
-    <OptionInfer>On</OptionInfer>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <OldToolsVersion>3.5</OldToolsVersion>
-    <UpgradeBackupLocation />
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,10 +19,9 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Sevansoft.CacheTest.ServiceTier.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DocumentationFile>Sevansoft.CacheTest.Entities.Tests.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -40,29 +29,34 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Sevansoft.CacheTest.ServiceTier.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DocumentationFile>Sevansoft.CacheTest.Entities.Tests.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\References\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Runtime.Caching" />
-    <Reference Include="System.ServiceModel">
-      <RequiredTargetFramework>3.0</RequiredTargetFramework>
-    </Reference>
+    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\VersionInfo.vb">
-      <Link>VersionInfo.vb</Link>
-    </Compile>
-    <Compile Include="CountryInformationService.vb" />
+    <Compile Include="CountryInfoListTests.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -78,8 +72,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ProductService.vb" />
-    <Compile Include="ServiceBase.vb" />
+    <Compile Include="StateInfoLists.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -101,21 +94,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sevansoft.CacheTest.BusinessTier\Sevansoft.CacheTest.BusinessTier.vbproj">
-      <Project>{596E795D-2925-43A3-9609-6E8D71BD9D80}</Project>
-      <Name>Sevansoft.CacheTest.BusinessTier</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sevansoft.CacheTest.Caching\Sevansoft.CacheTest.Caching.vbproj">
-      <Project>{a7c92890-5f97-4a7a-88b6-6c84e4496843}</Project>
-      <Name>Sevansoft.CacheTest.Caching</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Sevansoft.CacheTest.Entities\Sevansoft.CacheTest.Entities.vbproj">
-      <Project>{2B5E672D-212A-40F0-9DEC-6753F865A32A}</Project>
+      <Project>{2b5e672d-212a-40f0-9dec-6753f865a32a}</Project>
       <Name>Sevansoft.CacheTest.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sevansoft.CacheTest.Interfaces\Sevansoft.CacheTest.Interfaces.vbproj">
-      <Project>{59083189-F2CF-4F36-B507-356C32F5D34E}</Project>
-      <Name>Sevansoft.CacheTest.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

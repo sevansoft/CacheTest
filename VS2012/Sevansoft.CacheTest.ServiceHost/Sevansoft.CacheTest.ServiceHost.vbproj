@@ -69,6 +69,8 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CountryInformationService.svc" />
+    <Content Include="default.html" />
     <Content Include="ProductService.svc" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

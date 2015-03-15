@@ -56,6 +56,7 @@
     <Reference Include="System.ServiceModel">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="System" />
@@ -64,6 +65,9 @@
     <Compile Include="..\VersionInfo.vb">
       <Link>VersionInfo.vb</Link>
     </Compile>
+    <Compile Include="CountryInfo.vb" />
+    <Compile Include="CountryInfoList.vb" />
+    <Compile Include="Extensions\XmlNodeExtensions.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -81,6 +85,8 @@
     </Compile>
     <Compile Include="Product.vb" />
     <Compile Include="ProductList.vb" />
+    <Compile Include="StateInfo.vb" />
+    <Compile Include="StateInfoList.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
