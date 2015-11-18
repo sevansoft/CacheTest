@@ -12,11 +12,17 @@ Namespace Sevansoft.CacheTest.Entities
     <DebuggerStepThrough>
     <DataContract>
     Public Class Product
+        Public Sub New()
+            [Date] = DateTime.Now
+        End Sub
 
         <DataMember>
         Public Property Code() As String
 
         <DataMember>
         Public Property Name() As String
+
+        <DataMember>
+        Public Property [Date] As DateTime
     End Class
 End Namespace
