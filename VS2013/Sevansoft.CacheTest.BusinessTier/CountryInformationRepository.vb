@@ -6,6 +6,7 @@ Option Strict On
 Imports System
 Imports System.IO
 Imports System.Threading
+Imports System.Web
 
 Imports Sevansoft.CacheTest.Entities
 Imports Sevansoft.CacheTest.Interfaces
@@ -28,7 +29,7 @@ Namespace Sevansoft.CacheTest.BusinessTier
         End Function
 
         Private Function DataPath() As String
-            Return "~/Data"
+            Return Hosting.HostingEnvironment.MapPath("~/Data")
         End Function
 
         Public Sub ClearCache() Implements IServiceBase.ClearCache
