@@ -26,6 +26,8 @@ Namespace Sevansoft.CacheTest.Entities
         
         Private CodeField As String
         
+        Private DateField As Date
+        
         Private NameField As String
         
         Public Property ExtensionData() As System.Runtime.Serialization.ExtensionDataObject Implements System.Runtime.Serialization.IExtensibleDataObject.ExtensionData
@@ -44,6 +46,16 @@ Namespace Sevansoft.CacheTest.Entities
             End Get
             Set
                 Me.CodeField = value
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property [Date]() As Date
+            Get
+                Return Me.DateField
+            End Get
+            Set
+                Me.DateField = value
             End Set
         End Property
         
@@ -83,6 +95,8 @@ Namespace Sevansoft.CacheTest.Entities
         
         Private CodeField As String
         
+        Private DateField As Date
+        
         Private NameField As String
         
         Public Property ExtensionData() As System.Runtime.Serialization.ExtensionDataObject Implements System.Runtime.Serialization.IExtensibleDataObject.ExtensionData
@@ -101,6 +115,16 @@ Namespace Sevansoft.CacheTest.Entities
             End Get
             Set
                 Me.CodeField = value
+            End Set
+        End Property
+        
+        <System.Runtime.Serialization.DataMemberAttribute()>  _
+        Public Property [Date]() As Date
+            Get
+                Return Me.DateField
+            End Get
+            Set
+                Me.DateField = value
             End Set
         End Property
         

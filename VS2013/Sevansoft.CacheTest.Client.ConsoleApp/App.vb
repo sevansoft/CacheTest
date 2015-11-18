@@ -21,8 +21,8 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
             DumpAssemblyInfo()
 
             Try
-                'Test01()
-                Test02()
+                Test01()
+                'Test02()
             Catch ex As Exception
                 DumpException(ex)
             End Try
@@ -52,6 +52,7 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
 
                 stopWatch = stopWatch.StartNew()
                 Dim productList As ProductList = service.GetProducts()
+                Console.WriteLine("First Item Date: {0}", productList(0).Date)
                 stopWatch.Stop()
                 Console.WriteLine("service.GetProducts() took {0} milliseconds", stopWatch.ElapsedMilliseconds)
 
@@ -87,6 +88,7 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
 
                 stopWatch = stopWatch.StartNew()
                 Dim countryInfoList As CountryInfoList = service.GetCountryInfos()
+                Console.WriteLine("First Item Date: {0}", countryInfoList(0).Date)
                 stopWatch.Stop()
                 Console.WriteLine("service.CountryInformationClient() took {0} milliseconds", stopWatch.ElapsedMilliseconds)
 
