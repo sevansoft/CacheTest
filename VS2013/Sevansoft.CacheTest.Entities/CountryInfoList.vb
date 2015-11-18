@@ -16,10 +16,6 @@ Namespace Sevansoft.CacheTest.Entities
     Public Class CountryInfoList
         Inherits List(Of CountryInfo)
 
-        Public Sub New()
-            Me.Date = DateTime.Now
-        End Sub
-
         Public Shared Function LoadList(ByVal path As FileSystemInfo) As CountryInfoList
             Dim result As CountryInfoList = New CountryInfoList()
 
@@ -37,10 +33,6 @@ Namespace Sevansoft.CacheTest.Entities
 
             Return result
         End Function
-
-        <DataMember>
-        Public Property [Date] As DateTime
-
     End Class
 
 End Namespace
