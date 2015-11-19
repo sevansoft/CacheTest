@@ -16,6 +16,7 @@ Namespace Sevansoft.CacheTest.Entities
         Public Sub New(ByVal node As XmlNode)
             Code = node.ReadAttribute(Of String)("value")
             Name = node.ReadElement(Of String)()
+            [Date] = DateTime.Now
         End Sub
 
         <DataMember>
@@ -23,5 +24,8 @@ Namespace Sevansoft.CacheTest.Entities
 
         <DataMember>
         Public Property Name() As String
+
+        <DataMember>
+        Public Property [Date] As DateTime
     End Class
 End Namespace
