@@ -27,6 +27,8 @@ Namespace Sevansoft.CacheTest.Entities
         Private CodeField As String
         
         Private NameField As String
+
+        Private DateField As DateTime
         
         Public Property ExtensionData() As System.Runtime.Serialization.ExtensionDataObject Implements System.Runtime.Serialization.IExtensibleDataObject.ExtensionData
             Get
@@ -54,6 +56,16 @@ Namespace Sevansoft.CacheTest.Entities
             End Get
             Set
                 Me.NameField = value
+            End Set
+        End Property
+
+        <System.Runtime.Serialization.DataMemberAttribute()> _
+        Public Property [Date]() As DateTime
+            Get
+                Return Me.DateField
+            End Get
+            Set(value As DateTime)
+                Me.DateField = value
             End Set
         End Property
     End Class
@@ -84,6 +96,8 @@ Namespace Sevansoft.CacheTest.Entities
         Private CodeField As String
         
         Private NameField As String
+
+        Private DateField As DateTime
         
         Public Property ExtensionData() As System.Runtime.Serialization.ExtensionDataObject Implements System.Runtime.Serialization.IExtensibleDataObject.ExtensionData
             Get
@@ -113,6 +127,16 @@ Namespace Sevansoft.CacheTest.Entities
                 Me.NameField = value
             End Set
         End Property
+
+        <System.Runtime.Serialization.DataMemberAttribute()> _
+        Public Property [Date]() As DateTime
+            Get
+                Return Me.DateField
+            End Get
+            Set(value As DateTime)
+                Me.DateField = value
+            End Set
+        End Property
     End Class
     
     <System.Diagnostics.DebuggerStepThroughAttribute(),  _
@@ -134,7 +158,7 @@ Namespace Sevansoft.CacheTest.Entities
         Private CodeField As String
         
         Private NameField As String
-        
+
         Public Property ExtensionData() As System.Runtime.Serialization.ExtensionDataObject Implements System.Runtime.Serialization.IExtensibleDataObject.ExtensionData
             Get
                 Return Me.extensionDataField
