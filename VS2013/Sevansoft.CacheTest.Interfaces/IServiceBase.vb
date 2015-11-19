@@ -13,5 +13,8 @@ Namespace Sevansoft.CacheTest.Interfaces
     Public Interface IServiceBase
         <OperationContract>
         Sub ClearCache()
+
+        <OperationContract>
+        Function HostName() As String
     End Interface
 End Namespace

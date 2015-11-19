@@ -174,6 +174,9 @@ Public Interface IProduct
     <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IServiceBase/ClearCache", ReplyAction:="http://tempuri.org/IServiceBase/ClearCacheResponse")>  _
     Sub ClearCache()
     
+    <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IServiceBase/HostName", ReplyAction:="http://tempuri.org/IServiceBase/HostNameResponse")>  _
+    Function HostName() As String
+    
     <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IProduct/GetProduct", ReplyAction:="http://tempuri.org/IProduct/GetProductResponse")>  _
     Function GetProduct(ByVal code As String) As Sevansoft.CacheTest.Entities.Product
     
@@ -216,6 +219,10 @@ Partial Public Class ProductClient
         MyBase.Channel.ClearCache
     End Sub
     
+    Public Function HostName() As String Implements IProduct.HostName
+        Return MyBase.Channel.HostName
+    End Function
+    
     Public Function GetProduct(ByVal code As String) As Sevansoft.CacheTest.Entities.Product Implements IProduct.GetProduct
         Return MyBase.Channel.GetProduct(code)
     End Function
@@ -231,6 +238,9 @@ Public Interface ICountryInformation
     
     <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IServiceBase/ClearCache", ReplyAction:="http://tempuri.org/IServiceBase/ClearCacheResponse")>  _
     Sub ClearCache()
+    
+    <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/IServiceBase/HostName", ReplyAction:="http://tempuri.org/IServiceBase/HostNameResponse")>  _
+    Function HostName() As String
     
     <System.ServiceModel.OperationContractAttribute(Action:="http://tempuri.org/ICountryInformation/GetCountryInfos", ReplyAction:="http://tempuri.org/ICountryInformation/GetCountryInfosResponse")>  _
     Function GetCountryInfos() As Sevansoft.CacheTest.Entities.CountryInfoList
@@ -273,6 +283,10 @@ Partial Public Class CountryInformationClient
     Public Sub ClearCache() Implements ICountryInformation.ClearCache
         MyBase.Channel.ClearCache
     End Sub
+    
+    Public Function HostName() As String Implements ICountryInformation.HostName
+        Return MyBase.Channel.HostName
+    End Function
     
     Public Function GetCountryInfos() As Sevansoft.CacheTest.Entities.CountryInfoList Implements ICountryInformation.GetCountryInfos
         Return MyBase.Channel.GetCountryInfos

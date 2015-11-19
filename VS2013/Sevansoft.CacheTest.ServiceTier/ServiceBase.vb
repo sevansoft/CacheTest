@@ -19,5 +19,9 @@ Namespace Sevansoft.CacheTest.ServiceTier
         Public Sub ClearCache() Implements IServiceBase.ClearCache
             Cache.ClearCache()
         End Sub
+
+        Public Function HostName() As String Implements IServiceBase.HostName
+            Return Environment.MachineName
+        End Function
     End Class
 End Namespace

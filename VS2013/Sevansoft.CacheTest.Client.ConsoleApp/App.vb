@@ -40,6 +40,7 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
 
                 stopWatch = stopWatch.StartNew()
                 service = New ProductClient()
+                Console.WriteLine("Hosted by {0}", service.HostName)
                 stopWatch.Stop()
                 Console.WriteLine("New ProductClient() took {0} milliseconds", stopWatch.ElapsedMilliseconds)
 
@@ -75,6 +76,7 @@ Namespace Sevansoft.CacheTest.Client.ConsoleApp
 
                 stopWatch = stopWatch.StartNew()
                 service = New CountryInformationClient()
+                Console.WriteLine("Hosted by {0}", service.HostName)
                 stopWatch.Stop()
                 Console.WriteLine("New CountryInformationClient() took {0} milliseconds", stopWatch.ElapsedMilliseconds)
 

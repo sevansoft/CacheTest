@@ -32,5 +32,9 @@ Namespace Sevansoft.CacheTest.BusinessTier
         Public Sub ClearCache() Implements IServiceBase.ClearCache
             Throw New NotImplementedException
         End Sub
+
+        Public Function HostName() As String Implements IServiceBase.HostName
+            Throw New NotImplementedException
+        End Function
     End Class
 End Namespace
