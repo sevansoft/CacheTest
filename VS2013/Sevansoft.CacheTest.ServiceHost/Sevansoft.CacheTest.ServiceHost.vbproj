@@ -71,9 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CountryInformationService.svc" />
-    <Content Include="Data\CountryInfo.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Data\CountryInfo.xml" />
     <Content Include="Data\StateInfo.xml" />
     <Content Include="default.html" />
     <Content Include="ProductService.svc" />
